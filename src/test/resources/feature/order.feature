@@ -9,7 +9,7 @@ Feature: Order Product
     And User click icon cart
     Then User is in cart page
 
-
+    @Test
     Scenario: As a user, I can buy a product
       Given User is in login page
       When User input username
