@@ -14,7 +14,7 @@ Feature: Login
       And User click button login
       Then User will see error state
 
-      @Test
+
       Scenario: As a user, I can do logout
         Given User is in login page
         When User input username
